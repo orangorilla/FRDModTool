@@ -1,0 +1,59 @@
+.spacer .console {
+	word-wrap: break-word;
+}
+
+.spacer .console .title {
+	font-size: 1.2em;
+}
+
+.md a {
+	color: #498FD4;
+}
+.md a:visited {
+	color: #9350CF;
+}
+
+.mkoverlay {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.4);
+	position: fixed;
+	z-index: 200;
+	padding: 30px;
+	color: #FFF;
+}
+
+.mkoverlay p {
+	font-size: 1.5em;
+}
+
+.mkoverlay textarea {
+	width: 670px;
+	height: 200px;
+	display:block;
+	margin: 0.5em 0;
+}
+.mkoverlay button {
+	margin: 0.5em 0;
+}
+
+.mkoverlay .mktile {
+	background: rgba(0,30,100,0.8);
+	display: inline-block;
+	padding: 1em;
+	margin: 1em;
+}
+
+body .comment .md p > a:visited {
+	color: #662299 !important;
+}
+
+a.offencelink {
+	display:block;
+	margin: 1em;
+	color: white;
+	text-decoration:underline;
+	font-size: 1.2em;
+}

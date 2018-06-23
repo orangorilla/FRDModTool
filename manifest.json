@@ -1,0 +1,15 @@
+{
+	"manifest_version": 2,
+
+	"name": "FeMRADebates extension",
+	"description": "This extension helps with /r/FeMRADebates moderation",
+	"version": "3.1",
+
+	"content_scripts": [ {
+		"css": [ "bot.css" ],
+		"js": [ "jquery-1.10.2.min.js", "bot.js", "bans.js", "reddit.js", "secrets.js", "jquery.reddit.js"],
+		"matches": [ "https://reddit.com/*", "http://*.reddit.com/*", "https://*.reddit.com/*" ],
+		"run_at": "document_start"
+	} ],
+	"permissions": [ "storage", "cookies", "tabs", "history", "http://reddit.com/*", "https://reddit.com/*", "http://*.reddit.com/*", "https://*.reddit.com/*"]
+}
